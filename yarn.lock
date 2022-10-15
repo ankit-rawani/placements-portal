@@ -2486,6 +2486,11 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
+next-joi@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/next-joi/-/next-joi-2.2.1.tgz#bd690b5eba02d6d5d8bae76a2f402fb11843eca8"
+  integrity sha512-m6/rDj9a9sp0CeMGy3np/7T2663QFinfiTY4MuJ9LEicU+6SiDim4wnsqG5CfzI4IQX4tupN6jSCtsv0t2EWnQ==
+
 next@12.1.6:
   version "12.1.6"
   resolved "https://registry.yarnpkg.com/next/-/next-12.1.6.tgz#eb205e64af1998651f96f9df44556d47d8bbc533"
