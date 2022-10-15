@@ -1,6 +1,6 @@
 import Joi from 'joi';
 
-import validate from '../../../utils/middlewares/validation';
+import validate from '../../utils/middlewares/validation';
 
 const schema = {
     body: Joi.object({
