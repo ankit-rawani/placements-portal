@@ -10,10 +10,9 @@ const schema = {
 
 const handler = async (req, res) => {
     if (req.method == 'GET' || req.method == 'POST') {
-        if(req.body.name) {
-            res.status(200).json({ message: `Hello ${req.body.name}!`});
-        }
-        else res.status(200).json({message: 'Hello!'});
+        if (req.body.name) {
+            res.status(200).json({ message: `Hello ${req.body.name}!` });
+        } else res.status(200).json({ message: 'Hello!' });
     } else {
         res.status(405).json({ message: 'Method Not Allowed' });
     }
